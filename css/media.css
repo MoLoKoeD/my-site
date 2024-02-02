@@ -1,0 +1,161 @@
+@media (max-width: 1024px) {
+
+  .container {
+    padding: 170px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .burger {
+    right: 10px;
+    top: 15px;
+    background-color: #ffffff;
+  }
+
+  .burger__line-1 {
+    background-color: #000000;
+  }
+
+  .burger__line-2 {
+    background-color: #000000;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38.16px;
+    width: 90%;
+  }
+
+  .section-descr {
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+    width: 90%;
+  }
+
+  .form-new__name {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 0;
+  }
+  
+  .form-new__number {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .form-new__question {
+    width: 100%;
+    padding: 15px 15px 40px 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .form-new__footer {
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+    padding: 15px 45px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .form-descr {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .section-offset {
+    padding-bottom: 0;
+  }
+  
+  .container {
+    padding: 170px 0 0 0;
+  }
+
+  .content {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .burger {
+    right: 10px;
+    top: 15px;
+    background-color: #ffffff;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27.56px;
+  }
+
+  .section-descr {
+    font-size: 14px;
+    line-height: 18.9px;
+    font-weight: 400;
+    width: 90%;
+  }
+
+  .form-new__name {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 0;
+  }
+  
+  .form-new__number {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .form-new__question {
+    width: 100%;
+    padding: 15px 15px 40px 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .form-new__footer {
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+    padding: 15px 45px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .form-descr {
+    display: none;
+  }
+
+}
